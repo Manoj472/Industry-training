@@ -1,0 +1,41 @@
+.external{
+    border: 2px solid red; 
+    font-size: 30px;color: black;
+    background-color: aquamarine;
+
+}
+#manoj{
+    height: 200px;
+    width: 200px;
+    background-color: rgb(134, 90, 122);
+}
+p{
+    color: skyblue;
+    font-size: 20px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+*{
+    font-family: 'Courier New', Courier, monospace;
+   
+    
+}
+input[type="text"]{
+    color: red;
+}
+input[type="number"]{
+    color:green;
+}
+a:link{
+    color: chartreuse;
+}
+a:visited{
+    color:fuchsia;
+}
+a:hover{
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: black;
+}
+a:active{
+    color:indigo;
+}

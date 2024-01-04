@@ -1,0 +1,161 @@
+.main{
+    width: 100%;
+    height: 1600px;
+}
+.div1{
+    height: 1600px;
+    width: 25%;
+    background-color: rgb(42, 44, 46);
+    float: left;
+    padding-left: 50px;
+}
+.div2{
+    height: 1600px;
+    width: 70%;
+    float: right;
+}
+.profile{
+    width: 300px;
+    height: 300px;
+    border-radius: 150px;
+    background-color: aliceblue;
+    margin-top: 50px;
+    background-image: url(Images/profile.jpg);
+    background-size: cover;
+    box-shadow: 0px 0px 20px rgb(218, 187, 32);
+    position: relative;
+  
+}
+.head{
+    height: 150px;
+    width: 80%;
+    background-color: goldenrod;
+    position: absolute;
+    left: 300px;
+    top:140px;
+}
+.icon1{
+    height: 40px;
+    width: 40px;
+    background-color: goldenrod;
+    position: absolute;
+    top: 400px;
+    border-radius: 10px;
+    font-size: 30px;
+    padding-top: 2px;
+
+}
+.icon2{
+    height: 37px;
+    width: 40px;
+    background-color: goldenrod;
+    position: absolute;
+    top: 460px;
+    border-radius: 10px;
+    font-size: 30px;
+    padding-top: 2px;
+    
+}
+.icon3{
+    height: 40px;
+    width: 40px;
+    background-color: goldenrod;
+    position: absolute;
+    top: 520px;
+    border-radius: 10px;
+    font-size: 30px;
+    padding-top: 2px;
+}
+
+.phn{
+    position: absolute;
+    top: 408px;
+    left: 105px;
+    font-size: 20px;
+    color: goldenrod;
+}
+.email{
+    position: absolute;
+    top: 468px;
+    left: 105px;
+    font-size: 20px;
+    color: goldenrod;
+}
+.add{
+    position: absolute;
+    top: 528px;
+    left: 105px;
+    font-size: 20px;
+    color: goldenrod;
+}
+h2{
+  position: absolute;
+  top: 600px;
+  font-size:35px;
+  color: goldenrod;
+}
+hr{
+    background-color: goldenrod;
+}
+.h{
+    top: 00px;
+    position: absolute;
+    left: 50px;
+    color: goldenrod;
+    font-size: 20px;
+}
+.hob{
+    color:goldenrod;
+    position: absolute;
+    top: 700px;
+    left: 50px;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.f{
+    color: goldenrod;
+    font-size: 20px;
+    top: 200px;
+    left: 50px;
+    position: absolute;
+}
+.lan{
+    color: goldenrod;
+    font-size: 20px;
+    top: 910px;
+    left: 50px;
+    position: absolute;
+}
+.c2{
+    font-size: 60px;
+    position: absolute;
+    top: 330px;
+    left: 500px;
+    color: goldenrod;
+}
+.c3{
+    font-size: 20px;
+    position: absolute;
+    top: 450px;
+    left:500px ;
+    color: goldenrod;
+}
+.c4{
+    font-size: 40px;
+    position: absolute;
+    top: 400px ;
+    left: 50px;
+}
+.b3{
+    font-size: 20px;
+    position: absolute;
+    top: 1150px;
+color: goldenrod;
+}
+.name{
+    font-size: 70px;
+    top: 180px;
+    position: absolute;
+    font-weight: 900;
+    font-family: 'Roboto';
+}

@@ -1,0 +1,38 @@
+body{
+    background-color: rgb(92, 222, 92);
+}    
+
+    h1{
+        text-shadow: 3px 3px 5px green;
+        text-align: center;
+        font-size: 50px;
+    }
+    div{
+        height: 930px;
+        width: 900px;
+        border: 5px solid black;
+        background-color: white;
+        
+    }
+    .a{
+        height:830px ;
+        width: 800px;
+        border: 1px solid black;
+         
+    }
+    .n{
+        height: 100px;
+        width: 100px;
+        text-shadow: 2PX 2px 5px black,2PX 2px 5px black;
+
+    }
+    .b{
+        height: 100px;
+        width: 100px;
+        background-color: green;
+        text-shadow: 2PX 2px 5px black, 2PX 2px 5px black;
+
+        
+    }
+        
+    

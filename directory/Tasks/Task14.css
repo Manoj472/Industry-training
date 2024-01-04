@@ -1,0 +1,150 @@
+.bg{
+    height: 1400px;
+    width: 100%;
+    background-color: hwb(271 25% 15%);
+    position: relative;
+}
+.div1{
+    height: 500px;
+    width: 350px;
+    background-color: white;
+    border-radius: 20px;
+    position: absolute;
+    top: 200px;
+    left: 60px;
+}
+.div2{
+    height: 500px;
+    width: 350px;
+    background-color: white;
+    border-radius: 20px;
+    position: absolute;
+    top: 200px;
+    left: 560px;
+}
+.div3{
+    height: 500px;
+    width: 350px;
+    background-color: white;
+    border-radius: 20px;
+    position: absolute;
+    top: 200px;
+    left: 1080px;
+}
+.div4{
+    height: 500px;
+    width: 350px;
+    background-color: white;
+    border-radius: 20px;
+    position: absolute;
+    top: 750px;
+    left: 60px;
+}
+.div5{
+    height: 500px;
+    width: 350px;
+    background-color: white;
+    border-radius: 20px;
+    position: absolute;
+    top: 750px;
+    left: 560px;
+}
+.div6{
+    height: 500px;
+    width: 350px;
+    background-color: white;
+    border-radius: 20px;
+    position: absolute;
+    top: 750px;
+    left: 1080px;
+}
+.h1{
+    font-weight: 10;
+    font-size: medium;
+    color: white;
+    font-family: 'Chakra Petch';
+    position: absolute;
+    left: 677px;
+    margin-top: 80px;
+
+
+}
+.img1{
+    height: 300px;
+    width: 300px;
+    align-items: center;
+    background-image: url(Images/1.jpg);
+    background-size: cover;
+    margin-left: 25px;
+}
+.img2{
+    height: 300px;
+    width: 300px;
+    align-items: center;
+    background-image: url(Images/2.jpg);
+    background-size: cover;
+    margin-left: 25px;
+}
+.img3{
+    height: 300px;
+    width: 300px;
+    align-items: center;
+    background-image: url(Images/3.jpg);
+    background-size: cover;
+    margin-left: 25px;
+}
+.img4{
+    height: 300px;
+    width: 300px;
+    align-items: center;
+    background-image: url(Images/4.jpg);
+    background-size: cover;
+    margin-left: 25px;
+}
+.img5{
+    height: 300px;
+    width: 300px;
+    align-items: center;
+    background-image: url(Images/5.jpg);
+    background-size: cover;
+    margin-left: 25px;
+}
+.img6{
+    height: 300px;
+    width: 300px;
+    align-items: center;
+    background-image: url(Images/6.jpg);
+    background-size: cover;
+    margin-left: 25px;
+}
+h2{
+    text-align: center;
+    font-family: 'Roboto';
+    color: hwb(271 25% 15%);
+
+}
+p{
+  text-align: center; 
+  margin: 20px; 
+  font-family: 'Open Sans';
+  color: gray;
+}
+.h2{
+    font-weight: 10;
+    color: white;
+    font-family: 'Chakra Petch';
+    position: absolute;
+    left: 560px;
+    margin-top: 120px;
+    
+}
+button{
+    border-radius: 10px;
+    font-size: medium;
+    border: 0px;
+    background-color: hwb(271 25% 15%);
+    color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+}

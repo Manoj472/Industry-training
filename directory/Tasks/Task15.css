@@ -1,0 +1,102 @@
+.main{
+    height: 3000px;
+    width: 100%;
+    position: relative;
+    
+}
+.div1{
+    height: 400px;
+    width: 390px;
+    position: absolute;
+    top:150px ;
+    left:50px ;
+    padding-left: 10px;
+
+
+}
+.div2{
+    height: 380px;
+    width: 380px;
+    position: absolute;
+    top:150px ;
+    left:525px ;
+    background-color: rgba(0, 255, 255, 0.205);
+    padding-top: 20px;
+    padding-left: 20px;
+}
+.div3{
+    height: 380px;
+    width: 380px;
+    position: absolute;
+    top:150px ;
+    left:1000px ;
+    background-color: rgba(255, 228, 196, 0.5);
+    padding-top: 20px;
+    padding-left: 20px;
+}
+.div4{
+    height: 380px;
+    width: 380px;
+    position: absolute;
+    top:600px ;
+    left:50px ;
+    background-color: rgba(255, 0, 255, 0.16);
+    padding-top: 20px;
+    padding-left: 20px;
+}
+.div5{
+    height: 380px;
+    width: 380px;
+    position: absolute;
+    top:600px ;
+    left:525px ;
+    background-color: aliceblue;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+.div6{
+    height: 380px;
+    width: 380px;
+    position: absolute;
+    top:600px ;
+    left:1000px ;
+    background-color: azure;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+.h1{
+    font-size: 50px;
+    font-family: 'Roboto';
+}
+.text{
+    font-size: 25px;
+}
+.bb{
+    border: 0px;
+    background-color: #9881f7;
+    color: white;
+    padding: 10px;
+    margin-top: 20px;
+}
+h2{
+    font-family: 'Roboto';
+}
+.div{
+    height: 20px;
+    width: 380px;
+    margin-top: 20px;
+    font-size: 20px;
+}
+#check{
+    color:rgb(0, 183, 255);
+}
+.bbb{
+    border: 0px;
+    background-color: #9881f7;
+    color: white;
+    padding: 10px;
+    margin-top: 37px;
+}
+span{
+    font-family: 'Open Sans';
+}

@@ -1,0 +1,105 @@
+.a{
+    height: 35px;
+    width: 1200px;
+    box-shadow: 0px 0px 3px gray;
+    text-align: center;
+    padding-top: 12px;
+}
+button{
+    background-color: rgb(50, 197, 255);
+    border-radius: 10px;
+    color: aliceblue;
+    
+}
+.b{
+    height: 510px;
+    width: 350px;
+    box-shadow: 0px 0px 3px gray;
+    margin-top: 20px;
+    margin-left: 50px;
+    border-radius: 6px;
+    float: left;
+   
+}
+.c{
+    height: 300px;
+    width: 750px;
+    box-shadow: 0px 0px 3px gray;
+    border-radius: 6px;
+
+    float: right;
+    margin-top: 22px;
+    margin-right: 30px;
+    padding-left: 13px;
+    padding-top: 10px;
+}
+button:hover{
+    background-color: rgb(129, 244, 129);
+}
+select:hover{
+    background-color: red;
+    color: rgb(50, 197, 255) ;
+}
+.d{
+    height: 300px;
+    width: 750px;
+    box-shadow: 0px 0px 3px gray;
+    border-radius: 6px;
+    float: right;
+    margin-top: 22px;
+    margin-right: 30px;
+    padding-left: 13px;
+}
+form{
+    margin-left: 20px;
+    margin-top: 20px;
+    
+}
+#f{
+    width: 500px;
+    height: 30px;
+    border-style: inset;
+}
+.e{
+   
+    height: 150px;
+    width: 150px;
+    border-radius: 125px;
+    margin-top: 30px;
+    box-shadow: 0px 0px 10px rgb(52, 174, 255),0px 0px 20px rgb(52, 174, 255);
+    border: 5px solid rgb(52, 174, 255);
+    
+}
+span{
+    margin-top:400px ;
+}
+#g{
+    border-style: none;
+    text-align: end;
+    width: 225px;
+
+}
+hr{
+    margin-right: 15px;  
+}
+#p{
+    width: 700px;
+    accent-color: rgb(104, 104, 255);
+}
+#w{
+    width: 700px;
+    accent-color: red;
+}
+#x{
+    width: 700px;
+    accent-color: green;
+}
+#y{
+    width: 700px;
+    
+}
+#z{
+    width: 700px;
+    accent-color: rgb(16, 133, 165);
+
+}

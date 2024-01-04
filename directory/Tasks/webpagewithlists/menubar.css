@@ -1,0 +1,38 @@
+#menubar{
+    height: 100px;
+    width: 1010px;
+    border: 3px solid black;
+    border-radius: 3px;
+    box-shadow: 0px 0px 10px black;
+}
+ul{
+    list-style-type: none;
+}
+li{
+    display: inline;
+    float: left;
+    
+}
+.a{
+    margin-right: 205px;
+    
+}
+a{
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+   
+}
+body{
+   
+    font-size: larger;
+    font-family: Rubik Maps;
+
+}
+p{
+    font-family: Rubik Scribble;
+}
+a:hover{
+    text-shadow: 0px 0px 10px black;
+
+}

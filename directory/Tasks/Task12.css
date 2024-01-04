@@ -1,0 +1,192 @@
+.main{
+    height:1000px ;
+    width: 100%;
+    position: relative;
+}
+.h1{
+    margin-left: 25%;
+    margin-right: 25%;
+    text-align: center;
+    font-size: 50px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 400;
+}
+.sub1{
+    height: 320px;
+    width: 320px;
+    background-color: deeppink;
+    padding-top: 20px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    box-shadow: 0px 0px 10px gray;
+    position: absolute;
+    left:200px;
+    top: 200px;
+
+    
+
+    
+}
+.s1d1{
+    height: 280px;
+    width: 300px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-color: white;
+    margin-top: 20px;
+    padding-top: 20px;
+    padding-left: 20px;
+
+}
+.sub2{
+    height: 320px;
+    width: 320px;
+    background-color: aqua;
+    padding-top: 20px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    box-shadow: 0px 0px 10px gray;
+    position: absolute;
+    left: 600px;
+    top: 200px;
+    
+}
+.sub3{
+    height: 320px;
+    width: 320px;
+    background-color: rgb(42, 191, 42);
+    padding-top: 20px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    box-shadow: 0px 0px 10px gray;
+    position: absolute;
+    left: 1000px;
+    top: 200px;
+    
+}
+.sub4{
+    height: 320px;
+    width: 320px;
+    background-color: yellow;
+    padding-top: 20px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    box-shadow: 0px 0px 10px gray;
+    position: absolute;
+    left: 200px;
+    top: 570px;
+    
+    
+}
+.sub5{
+    height: 320px;
+    width: 320px;
+    background-color: rgb(215, 96, 255);
+    padding-top: 20px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    box-shadow: 0px 0px 10px gray;
+    position: absolute;
+    left: 600px;
+    top: 570px;
+    
+}
+.sub6{
+    height: 320px;
+    width: 320px;
+    background-color: palevioletred;
+    padding-top: 20px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    box-shadow: 0px 0px 10px gray;
+    position: absolute;
+    left: 1000px;
+    top: 570px;
+
+    
+}
+.pink{
+    height: 70px;
+    width: 70px;
+    border-radius: 50px;
+    background-color: deeppink;
+    margin-top: 0px;
+    text-align: center;
+    font-size: 40px;
+}
+.two{
+    height: 70px;
+    width: 70px;
+    border-radius: 50px;
+    background-color:aqua;
+    margin-top: 0px;
+    font-size: 40px;
+    text-align: center;
+
+}
+.three{
+    height: 70px;
+    width: 70px;
+    border-radius: 50px;
+    background-color: rgb(42, 191, 42);
+    margin-top: 0px;
+    font-size: 40px;
+    text-align: center;
+
+}
+.four{
+    height: 70px;
+    width: 70px;
+    border-radius: 50px;
+    background-color: yellow;
+    margin-top: 0px;
+    font-size: 40px;
+    text-align: center;
+
+}
+.five{
+    height: 70px;
+    width: 70px;
+    border-radius: 50px;
+    background-color: rgb(215, 96, 255);
+    margin-top: 0px;
+    font-size: 40px;
+    text-align: center;
+
+}
+.six{
+    height: 70px;
+    width: 70px;
+    border-radius: 50px;
+    background-color: palevioletred;
+    margin-top: 0px;
+    font-size: 40px;
+    text-align: center;
+
+}
+i{
+    margin-top: 15px;
+    margin-left: 1px;
+}
+h3{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(69, 69, 69);
+}
+span{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-right: 20px;
+    text-align: center;
+
+}
+.bb{
+    border: 0px;
+    background-color: aqua;
+    color: aliceblue;
+    border-radius: 10px;
+    font-size: 20px;
+    position: absolute;
+    bottom:10px;
+    left: 710px;
+    
+}
+ 

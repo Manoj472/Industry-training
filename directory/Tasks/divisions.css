@@ -1,0 +1,46 @@
+div{
+    height:1000px ;
+    width: 1270px;
+    background-color: black;
+}
+.a{
+    height: 1000px;
+    width:200px ;
+    float: left;
+    background-color: cadetblue;
+}
+.b{
+    height: 1000px;
+    width:200px ;
+    float: left;
+    background-color:firebrick;
+
+}
+.c{
+    height: 1000px;
+    width:200px ;
+    float: left;
+    background-color:navajowhite;
+
+}
+.d{
+    height: 1000px;
+    width:250px ;
+    float: left;
+    background-color:rgb(89, 163, 46);
+
+}
+.e{
+    height: 1000px;
+    width:170px ;
+    float: left;
+    background-color:rgb(46, 128, 163);
+
+}
+.f{
+    height: 1000px;
+    width:250px ;
+    float: left;
+    background-color:rgb(163, 46, 110);
+
+}
