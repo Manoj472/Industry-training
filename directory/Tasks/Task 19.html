@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Dashboard</title>
+    <style>
+        .main{
+            margin: 0px;
+            border: 0px;
+        }
+        .div1{
+            height: 90px;
+            width: 100%;
+            background-color: rgb(43, 128, 255);
+            padding-top: 10px;
+        }
+        .div2{
+            padding-left: 20px;
+            position: relative;
+
+        }
+        .heading{
+            color: white;
+            font-family:Verdana, Geneva, Tahoma, sans-serif
+        }
+        h2{
+            font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+        input{
+            width: 250px;
+            padding: 4px;
+        }
+        .b{
+            margin-top: 20px;
+            padding-left: 109px;
+            padding-right: 109px;
+            padding-top: 5px;
+            padding-bottom: 5px;
+            background-color:rgb(43, 128, 255) ;
+            border: 0px;
+            color: white;
+            border-radius: 2px;
+
+        }
+        span{
+            width: 100px;
+            text-align: center;
+        }
+        .bb{
+            margin-top: 20px;
+            padding-left: 62px;
+            padding-right: 70px;
+            padding-top: 5px;
+            padding-bottom: 5px;
+            background-color:gray;
+            border: 0px;
+            color: white;
+            border-radius: 2px;
+            
+        }
+        .Location{
+            position: absolute;
+            background-color:rgb(43, 128, 255) ;
+            height: 200px;
+            width: 980px;
+            top: 10px;
+            right: 20px;
+            padding-left: 20px;
+            border-radius: 10px;
+
+        }
+        .t{
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            color: white;
+            font-weight: 200;
+        }
+
+        .h{
+            color: white;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+        .tt{
+            position: absolute;
+            right: 850px;
+            top: 220px;
+        }
+        .sub1{
+            height: 200px;
+            width: 200px;
+            background-color: gray;
+            position: absolute;
+            top: 300px;
+            left: 500px;
+            border-radius: 10px;
+        }
+        .sub2{
+            height: 200px;
+            width: 200px;
+            background-color: gray;
+            position: absolute;
+            top: 300px;
+            left: 770px;
+            border-radius: 10px;
+
+        }
+        .sub3{
+            height: 200px;
+            width: 200px;
+            background-color: gray;
+            position: absolute;
+            top: 300px;
+            right: 285px;
+            border-radius: 10px;
+
+        }
+        .sub4{
+            height: 200px;
+            width: 200px;
+            background-color: gray;
+            position: absolute;
+            top: 300px;
+            right: 20px;
+            border-radius: 10px;
+
+        }
+        h3{
+            margin-left: 10px;
+            font-family:Arial, Helvetica, sans-serif;
+            color: white;
+        }
+        span{
+            margin-left: 10px;
+            margin-top: 10px;
+            color: white;
+        }
+        .img1{
+            width: 100px;
+            height: 100px;
+            position: absolute;
+            right: 50px;
+            top: 50px;
+        }
+        .img2{
+            height: 50px;
+            width: 50px;
+            position: absolute;
+            top: 42px;
+            left: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="div1">
+           <center> <h1 class="heading">Weather Dashboard</h1></center>
+        </div>
+        <div class="div2"> 
+            <h2>Enter a City Name</h2>
+            <input type="text" placeholder="Eg.New York,London,Tokyo">
+            <br>
+            <button class="b">Search</button>
+            <br>
+            <span>or</span><br>
+            <button class="bb">Use Current Location</button>
+            <div class="Location">
+                <h2 class="h">London (2023-06-19)</h2>
+                <p class="t">Temperature: 18.71°C</p>
+                <p class="t">Wind:4.13 M/S</p>
+                <p class="t">Humidity:76%</p>
+                <img src="Images/cloudy.png" alt="cloudy" class="img1">
+            </div>
+            <h2 class="tt">4-Day Forecast</h2>
+            <div class="sub1">
+                <h3>(2023-06-20)</h3>
+                <img src="Images/sun.png" alt="sun" class="img2"><br><br><br>
+                <span>Temp:17.64°C</span><br>
+                <span>Wind:0.73 M/S</span><br>
+                <span>Humidity:70%</span>
+            </div>
+            <div class="sub2">
+                <h3>(2023-06-21)</h3>
+                <img src="Images/sunny.png" alt="sun" class="img2"><br><br><br>
+                <span>Temp:17.64°C</span><br>
+                <span>Wind:0.73 M/S</span><br>
+                <span>Humidity:70%</span></div>
+            <div class="sub3">
+                <h3>(2023-06-22)</h3>      
+                <img src="Images/storm.png" alt="sun" class="img2"><br><br><br>
+                <span>Temp:17.64°C</span><br>
+                <span>Wind:0.73 M/S</span><br>
+                <span>Humidity:70%</span></div>
+            <div class="sub4">
+                <h3>(2023-06-23)</h3> 
+                <img src="Images/cloudy (2).png" alt="sun" class="img2"><br><br><br>
+                <span>Temp:17.64°C</span><br>
+                <span>Wind:0.73 M/S</span><br>
+                <span>Humidity:70%</span></div>
+        </div>
+
+    </div>
+</body>
+</html>

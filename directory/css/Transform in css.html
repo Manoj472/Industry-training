@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transform in css</title>
+    <style>
+        *{
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+        .div1{
+            height: 200px;
+            width: 200px;
+            background-color: aqua;
+            float:left;
+            margin-left: 20px;
+
+            
+        }  
+        .div1:hover{
+            /* transform: translate(40px,40px); */
+            transform: translate3d(0px,0px,50px);
+        }
+        .div2{
+            height: 200px;
+            width: 200px;
+            background-color: green;
+            float: left;
+            margin-left: 20px;
+        }
+        .div2:hover{
+            transform: translateX(40px)
+        }
+        .div3{
+            height: 200px;
+            width: 200px;
+            background-color: pink;
+            float: left;
+            margin-left: 20px;
+        }
+        .div3:hover{   
+            transform: translateY(40px)
+        }
+        .div4{
+            height: 200px;
+            width: 200px;
+            background-color: skyblue;
+            float: left;
+            margin-left: 20px;
+        }
+        .div4:hover{
+            transform: rotate(10deg)
+            /* transform: rotate3d(0,0,10,10deg); */
+        }
+        .div5{
+            height: 200px;
+            width: 200px;
+            background-color: rgb(255, 83, 83);
+            float: left;
+            margin-left: 20px;
+        }
+        .div5:hover{
+            transform: rotateX(50deg)
+        }
+        .div6{
+            height: 200px;
+            width: 200px;
+            background-color: rgb(244, 255, 88);
+            float: left;
+            margin-left: 20px;
+        }
+        .div6:hover{
+            transform: rotateY(50deg)
+        }
+        .div7{
+            height: 200px;
+            width: 200px;
+            background-color: rgb(230, 88, 255);
+            float: left;
+            margin-left: 20px;
+            margin-top: 20px;
+        }
+        .div7:hover{
+            /* transform: scale(2) */
+            transform: scale3d(2,2,3);
+        }
+        .div8{
+            height: 200px;
+            width: 200px;
+            background-color: rgb(77, 166, 111);
+            float: left;
+            margin-left: 20px;
+            margin-top: 20px;
+
+        }
+        .div8:hover{
+            border: 1px solid black;
+            transform: scaleX(2)
+            
+        }
+        .div9{
+            height: 200px;
+            width: 200px;
+            background-color: rgb(88, 255, 205);
+            float: left;
+            margin-left: 20px;
+            margin-top: 20px;
+        }
+        .div9:hover{
+            border: 1px solid black;
+            transform: scaleY(2)
+        }
+        .div10{
+            height: 200px;
+            width: 200px;
+            background-color: rgba(88, 119, 255, 0.524);
+            float: left;
+            margin-left: 20px;
+            margin-top: 20px;
+        }
+        .div10:hover{
+            transform: skew(10deg,10deg)
+            
+        }
+        .div11{
+            height: 200px;
+            width: 200px;
+            background-color: rgba(138, 255, 88, 0.807);
+            float: left;
+            margin-left: 20px;
+            margin-top: 20px;
+        }
+        .div11:hover{
+            transform: skewX(30deg)
+        }
+        .div12{
+            height: 200px;
+            width: 200px;
+            background-color: rgba(216, 112, 147, 0.473);
+            float: left;
+            margin-left: 20px;
+            margin-top: 20px;
+        }
+        .div12:hover{
+            transform: skewY(30deg)
+        }
+        .div13{
+            height: 200px;
+            width: 200px;
+            background-color: rgba(216, 112, 147, 0.473);
+            float: left;
+            margin-left: 50%;
+            margin-top: 100px;
+            margin-bottom: 100px;
+        }
+        .div13:hover{
+            transform: matrix(1,1,0,1,12 ,1);
+        }
+    </style>
+</head>
+<body>
+    <center><h1>Transform in CSS</h1>
+    <hr></center>
+    <div class="div1"><span>Translate()</span></div>
+    <div class="div2"><span>TranslateX()</span></div>
+    <div class="div3"><span>TranslateY()</span></div>
+    <div class="div4"><span>Rotate()</span></div>
+    <div class="div5"><span>RotateX()</span></div>
+    <div class="div6"><span>RotateY()</span></div>
+    <div class="div7"><span>Scale()</span></div>
+    <div class="div8"><span>ScaleX()</span></div>
+    <div class="div9"><span>ScaleY()</span></div>
+    <div class="div10"><span>Skew()</span></div>
+    <div class="div11"><span>SkewX()</span></div>
+    <div class="div12"><span>SkewY()</span></div>
+    <div class="div13"><span>Matrix()</span></div>
+
+
+
+</body>
+</html>
