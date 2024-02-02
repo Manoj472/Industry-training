@@ -7,16 +7,19 @@
 }
 button{
     background-color: rgb(50, 197, 255);
-    border-radius: 10px;
+    border-radius: 2px;
     color: aliceblue;
+    border: 0px;
+    height: 30px;
     
 }
 .b{
-    height: 510px;
+    height: 530px;
     width: 350px;
     box-shadow: 0px 0px 3px gray;
     margin-top: 20px;
     margin-left: 50px;
+    margin-right: 30px;
     border-radius: 6px;
     float: left;
    
@@ -26,10 +29,10 @@ button{
     width: 750px;
     box-shadow: 0px 0px 3px gray;
     border-radius: 6px;
-
-    float: right;
+    float: left;
     margin-top: 22px;
     margin-right: 30px;
+    
     padding-left: 13px;
     padding-top: 10px;
 }
@@ -41,11 +44,11 @@ select:hover{
     color: rgb(50, 197, 255) ;
 }
 .d{
-    height: 300px;
+    height: 260px;
     width: 750px;
     box-shadow: 0px 0px 3px gray;
     border-radius: 6px;
-    float: right;
+    float: inline-start;
     margin-top: 22px;
     margin-right: 30px;
     padding-left: 13px;
@@ -59,15 +62,19 @@ form{
     width: 500px;
     height: 30px;
     border-style: inset;
+    border:1px solid gray ;
+
 }
 .e{
    
     height: 150px;
     width: 150px;
-    border-radius: 125px;
+    border-radius: 80px;
     margin-top: 30px;
     box-shadow: 0px 0px 10px rgb(52, 174, 255),0px 0px 20px rgb(52, 174, 255);
     border: 5px solid rgb(52, 174, 255);
+    background-image: url(../images/sub/images.png);
+    background-size: contain;
     
 }
 span{
@@ -77,6 +84,7 @@ span{
     border-style: none;
     text-align: end;
     width: 225px;
+    border:1px solid gray ;
 
 }
 hr{
@@ -102,4 +110,20 @@ hr{
     width: 700px;
     accent-color: rgb(16, 133, 165);
 
+}
+.fll{
+    background-color: rgb(255, 255, 255);
+    border-radius: 2px;
+    color: rgb(50, 197, 255);
+    border: 2px solid rgb(50, 197, 255);
+}
+#Actions{
+    border-radius: 2px;
+    color: rgb(255, 255, 255);
+    border: 0px ;
+    height: 30px;
+    background-color: rgb(255, 81, 81);
+}
+#instagram{
+   background-color:  rgb(255, 70, 70);
 }
