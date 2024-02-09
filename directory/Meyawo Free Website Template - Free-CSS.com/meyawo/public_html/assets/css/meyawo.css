@@ -11375,11 +11375,11 @@ p {
 }
 
 .testimonial-card-img {
-  background: #fff;
+  background: white;
   padding: 4px;
   width: 90px;
   height: 90px;
-  border-radius: 50%;
+  border-radius: 0px;
 }
 
 .testimonial-card-body {
