@@ -1,0 +1,20 @@
+      <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Count of numbers</title>
+    </head>
+    <body>
+        Count is: 
+        <span id="number">0</span><br>
+        <button class="minus">Decrement</button>
+        <button class="plus">Increment</button>
+        <script>
+            let minus = document.querySelector('.minus')
+            let plus = document.querySelector('.plus');
+            plus.addEventListener('click',()=>document.getElementById("number").textContent++);
+            minus.addEventListener('click',()=>document.getElementById("number").textContent--);
+        </script>
+    </body>
+    </html>

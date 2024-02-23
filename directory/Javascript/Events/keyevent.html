@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>key event listeners</title>
+</head>
+<body>
+    <p id="ddd"></p>
+    <br>
+    <label for="username">keydown</label>
+    <input type="text" id="" placeholder="enter text" onkeydown="change(this.value)">
+    <br>
+    <label for="username">keyup</label>
+    <input type="text" id="" placeholder="enter text" onkeyup="change1(this.value)">
+    <br>
+    <label for="username">keypress</label>
+    <input type="text" id="" placeholder="enter text" onkeypress="change2(this.value)">
+<script>
+    function change(value){
+        document.getElementById('ddd').innerText=value
+    }
+    function change1(value){
+        document.getElementById('ddd').innerText=value
+    }
+    function change2(value){
+        document.getElementById('ddd').innerText=value
+    }
+</script>
+
+</body>
+</html>

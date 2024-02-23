@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table Example</title>
+    <style>
+        
+       
+      
+    </style>
+</head>
+<body>
+    <table id="myTable" border="">
+        <thead>
+            <tr id="headingsRow"></tr>
+        </thead>
+        <tbody id="dataRows"></tbody>
+    </table>
+
+    <script >
+       
+const headings = ['course name','course number','course fee','place'];
+
+const data = [
+    ['css','24452','235','dwp'],
+    ['javascript','26430','235','dwp'],
+    ['bootstrap','29936','235','dwp'],
+    [ 'html','20032','235','dwp'],
+    [ 'html','20032','235','dwp']
+];
+
+
+const headingsRow = document.getElementById('headingsRow');
+const dataRows = document.getElementById('dataRows');
+
+
+headings.forEach(heading => {
+    const th = document.createElement('th');
+    th.textContent = heading;
+    headingsRow.appendChild(th);
+});
+
+data.forEach(rowData => {
+    const tr = document.createElement('tr');
+
+    rowData.forEach(cellData => {
+        const td = document.createElement('td');
+        td.textContent = cellData;
+        tr.appendChild(td);
+    });
+
+    dataRows.appendChild(tr);
+});
+    </script>
+</body>
+</html>

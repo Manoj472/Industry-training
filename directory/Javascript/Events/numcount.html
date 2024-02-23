@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+    <label>Enter color</label>
+    <input type="text" onkeydown="change(this.value)">
+    <br>
+    <p id="err"></p>
+    <p id="nm"></p>
+    </form>
+    <script>
+        function change(value){
+            let ff =document.getElementById('err')
+            let mm =document.getElementById('nm')
+            mm.innerHTML=value.length
+
+            if(value.length<3){
+                ff.innerText='enter more than 3'
+                ff.style.color='red'
+            }
+            else{
+                ff.innerText=''
+            }
+        }
+       
+    </script>
+</body>
+</html>

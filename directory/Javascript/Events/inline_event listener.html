@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>onclick</title>
+</head>
+<body>
+    <br><br><br><center>
+    <button onmouseover="sample()" onmouseout="sample1()" onclick="sample2()"> touch me</button>
+
+
+</center>
+    <br>
+    <p id="tess"></p>
+    <script type="text/javascript">
+        function sample(){
+            document.body.style.backgroundColor="orange";
+            document.getElementById('tess').innerText='relese to change backgroung colour';
+
+        }
+        function sample1(){
+            document.body.style.backgroundColor="blue";
+            document.getElementById('tess').innerText='click to change backgroung colour';
+
+        }
+        function sample2(){
+            document.body.style.backgroundColor="red";
+            document.getElementById('tess').innerText='release to change backgroung colour';
+
+        }
+
+
+
+    </script>
+    
+</body>
+</html>

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dom methods</title>
+</head>
+<body>
+    <p>this is para 1</p>
+    <p>this is para 2</p>
+    
+    <p id="id">This is id 1</p>
+    <p id="id">This is id 2</p>
+    <p class="cls">This is class 1</p>
+    <p class="cls">This is class 2</p>
+
+    <a id="myanch"> click here</a>
+    <script>
+        //query selector
+        const qs = document.querySelector('p')
+        qs.style.backgroundColor='red';
+
+        // query selector  by id   
+        //  const qs = document.querySelector('#id')
+        // qs.style.backgroundColor='red';
+
+        //  query selector  by class   
+        //  const qs = document.querySelector('.cls')
+        // qs.style.backgroundColor='red';
+
+        let id=document.querySelectorAll("#id")
+        console.log(id)
+        id[0].style.backgroundColor='red'
+        id[1].style.backgroundColor='red'
+
+        const hh= document.querySelectorAll(".cls")
+        hh[0].style.backgroundColor='aqua'
+        hh[1].style.backgroundColor='aqua'
+
+        const tagnm= document.querySelectorAll(".cls")
+        tagnm[0].style.backgroundColor='aqua'
+        tagnm[1].style.backgroundColor='aqua'
+
+        //set attribute
+        const MyAnch = document.getElementById("myanch")
+        MyAnch.setAttribute("href","https://youtube.com")
+        MyAnch.setAttribute("target","_blank")
+        console.log(MyAnch)
+
+        const NewBtn = document.createElement("button")
+        NewBtn.innerText="click here"
+        NewBtn.setAttribute("id","my_btn")
+        const NewDiv = document.createElement("div")
+        NewDiv.innerHTML="<h1>this is new division</h1>"
+
+        NewDiv.style.cssText = `height: 200px;
+                                  width:200px;
+                                  color:red;
+                                  Paddind=20px;
+                                  background-color:lightblue;
+                                  border:2px solid blue;`
+
+
+        const bdy=document.body
+        bdy.appendChild(NewDiv)
+        bdy.appendChild(NewBtn)
+
+        const MyBtn = document.getElementById("my_btn")
+        MyBtn.addEventListener("mouseover",my)
+        
+
+
+
+
+        
+    </script>
+</body>
+</html>

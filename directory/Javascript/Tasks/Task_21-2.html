@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Task</title>
+</head>
+<body>
+  <table border="" style="height: 100px;width: 100%;">
+    <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+          
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+          
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+          
+    </tr>
+    <script>
+      const name =["siva","raju","ravi","rani","raju","ravi","siva","raju","ravi"];
+      let col = ["red","green","blue","red","green","blue","red","green","blue"]
+      let tabledata=document.getElementsByTagName("td");
+    	for(var i=0;i<=tabledata.length;i++)
+    	{
+    		tabledata[i].innerHTML=name[i];
+        tabledata[i].style.backgroundColor=col[i];
+    	}
+    </script>
+</body>
+</html>

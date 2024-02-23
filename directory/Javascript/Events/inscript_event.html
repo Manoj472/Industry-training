@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>inscript declration</title>
+</head>
+<body>
+    <button id="btnn">click me</button>
+    <script>
+        let btn = document.getElementById('btnn')
+        btn.onclick=sample;
+        btn.onmouseout=sample1;
+        function sample(){
+            document.body.style.backgroundColor="blue";
+        }
+        function sample1(){
+            document.body.style.backgroundColor="orange";
+        }
+
+    </script>
+    
+</body>
+</html>
