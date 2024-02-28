@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+ let nums=[8,9,89,6,9,69,2,3,23];
+ //let even_num = nums.filter((num,i)=>{                        //arrow  function
+ let even_num = nums.filter(function(num,i){                    //anonymous function
+ //let even_num = nums.filter(function evennums(num,i){         //anonymous function
+    return num%2 == 0
+ })
+ console.log(even_num);
+ let odd_num = nums.filter((num,i)=>{                           //arrow  function
+ //let odd_num = nums.filter(function(num,i){                   //anonymous function
+ //let odd_num = nums.filter(function oddnums(num,i){           //with  function
+    return num%2 != 0
+ })
+ console.log(odd_num);
+    </script>
+</body>
+</html>

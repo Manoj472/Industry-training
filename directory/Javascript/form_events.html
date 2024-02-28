@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form events</title>
+</head>
+<body>
+    <form action="" id="myform">
+        <label for="">enter name</label>
+        <input type="text" id="fn" name="fname" onchange="changetext()">
+        <br>
+        <label for="">select college</label>
+        <select name="" style="width: 300px;height: 30px"  onchange="sample(this.value)">
+        <option value="">------select college-----</option>
+        <option value="acet">ACET</option>
+        <option value="aec">AEC</option>
+        <option value="acoe">ACOE</option>
+        </select>
+        <br>
+        <p id="p_id"></p>
+        <br>
+        <input type="button" onclick="submitform()" value="submit">
+        <input type="button" onclick="submitform()" value="reset">
+    </form>
+    <script>
+        function submitform()
+        {
+            document.getElementById('myform').submit()
+        }
+        function resetform()
+        {
+            document.getElementById('myform').reset()
+            
+        }
+        function changetext(){
+            document.getElementById('fn');
+            fn.value=fn.value.toUpperCase();
+
+        }
+        function sample (clg_name){
+           let= document.getElementById('p_id').innertext = Clg_name
+        }
+
+    </script>
+</body>
+</html>

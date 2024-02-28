@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>task on events</title>
+    <link rel="stylesheet" href="aaa.css">
+</head>
+<body>
+
+	<button id="changeColorButton" class="glow-on-hover" type="button">Change backgroundColor</button>
+
+	<script>
+const button = document.getElementById('changeColorButton');
+button.addEventListener('click', changeColor);
+
+function changeColor() {
+  const red = Math.floor(Math.random() * 256);
+  const green = Math.floor(Math.random() * 256);
+  const blue = Math.floor(Math.random() * 256);
+
+  document.body.style.backgroundColor = `rgb(${red}, ${green}, ${blue})`;
+}
+    </script>
+</body>
+</html>

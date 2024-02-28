@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+    let birthyear =[1998,1995,1999,2002,2004,2005,2007,2009,2010,2012];
+        let ages = birthyear.map(function(element,index,arr) {
+            let age = 2024-element;
+            return "the current age is :"+age;
+         console.table(age);
+           
+    
+        });
+        console.table(ages);
+
+        //
+let age = birthyear.map(findage)
+function findage(year,index,arr){
+   // console.log("current element is"+year)
+    //console.log("element index position is"+index)
+    console.log("current array is"+arr)
+    let age=2024-year;
+    return "the current age is :"+age;
+
+}
+    //for each function
+    let salaries = [40000,25000,30000];
+    console.log(salaries);
+    salaries.forEach((ampunt,index)=>//arrow function
+   // salaries.forEach(function(amount,index)//anonymous function
+    {
+        var hike = amount/10;
+        console.log(hike)
+        salaries[index]=amount+hike;
+        
+    });
+    console.log(salaries);
+</script>
+</body>
+</html>
