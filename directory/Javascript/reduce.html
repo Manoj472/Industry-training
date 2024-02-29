@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>reduce in javascript</title>
+</head>
+<body>
+    <script>
+        let nums=[2,5,25,45,9,69,37,4];
+        let sum = nums.reduce((acc,ele)=>{
+            return acc + ele;
+
+        },0);
+        console.log(sum) // 196
+        let  maximun_value = nums.reduce((acc,ele,i,arr)=>{
+            if(acc > ele)
+            return acc;
+        else
+        return ele;
+
+        },o)
+    </script>
+</body>
+</html>

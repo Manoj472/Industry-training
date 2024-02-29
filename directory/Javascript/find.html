@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>find in javascript</title>
+</head>
+<body>
+    <script>
+        let courses = ['html','css','javascript'];
+        let getCourses = courses.find((course,index)=>{
+            return course.endsWith('j');
+        })
+        console.log(getCourses);
+    </script>
+    
+</body>
+</html>
