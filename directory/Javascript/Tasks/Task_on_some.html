@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>print data through clg</title>
+</head>     
+<body>
+    <script>
+        let arr=[{
+            name:"MANOJ",
+            Branch:"ECE",
+            PIN:38,
+            college:"AEC"        
+        },
+        {
+            name:"PRAVEEN",
+            Branch:"ECE",
+            PIN:40,
+            college:"AEC"        
+        },
+        {
+            name:"SRIKANTH",
+            Branch:"ECE",
+            PIN:37,
+            college:"AECT"
+        },
+        {
+            name:"VAMSI",
+            Branch:"ECE",
+            PIN:2,
+            college:"AECT"
+        }]
+        let data=arr.filter((element,index)=>{
+            return element.college=="AEC"
+        })
+        document.write("<b>"+"Student Details:"+"</b><br>")
+        document.write(data[0].name+'<br>')
+        document.write(data[0].Branch+'<br>')
+        document.write(data[0].PIN+'<br>')
+        document.write(data[0].college+'<br>') 
+
+        document.write("<b>"+"Student Details:"+"</b><br>")
+        document.write(data[1].name+'<br>')
+        document.write(data[1].Branch+'<br>')
+        document.write(data[1].PIN+'<br>')
+        document.write(data[1].college)
+    </script>
+</body>
+</html>

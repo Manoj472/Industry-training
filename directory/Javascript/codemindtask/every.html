@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>every in javascript</title>
+</head>
+<body>
+    <script>
+        let students_marks = [55, 76, 92,34,55,20];
+        //let final_results =students_marks.every((score,i) =>//arrow function
+        let final_results =students_marks.every(function(score,i) //ananoymous  function
+        {
+            console.log(score); //prints each element of array
+            return score>35;   //returns true if all elements are greater than 35
+        })
+        console.log(final_results)
+    </script>
+</body>
+</html>
