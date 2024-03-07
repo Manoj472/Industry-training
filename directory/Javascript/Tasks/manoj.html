@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iphone 15</title>
+</head>
+<body>
+    <button id="btn_d" style="background-color: linear-gradient(); cursor: pointer;">click me</button>
+    <script>
+        let btn =document.getElementById('btn_d')
+        btn.addEventListener("click",col)
+        function col(){
+            const randomcolour = Math.floor(Math.random()*6575).toString(16);
+            document.body.style.backgroundColor="#"+randomcolour;
+            color.innerhtml="#"+randomcolour;
+        }
+    </script>
+</body>
+</html>

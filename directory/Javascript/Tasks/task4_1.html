@@ -13,11 +13,11 @@
     function fun(){
     let val=document.getElementById("loi").value
     let meme=["a@gmail.com","b@gmail.com","c@gmail.com","d@gmail.com"]
-    let memecheck=false
+    // let memecheck=false
      memecheck=meme.some((meme,i,arr)=>{
       return meme==val
     })
-    console.log(memecheck)
+    // console.log(memecheck)
     let mat=document.getElementById("che")
     if(memecheck==true){
 mat.innerText="E-mail exist"

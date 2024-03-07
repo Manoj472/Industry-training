@@ -1,0 +1,195 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 0;
+    background: url("https://as1.ftcdn.net/v2/jpg/06/74/67/66/1000_F_674676693_7ez0d7wOc6OuJp4jgaIVB5S3dZsZ1fRV.jpg" ) center/cover no-repeat fixed;
+    color: #333;
+   
+}
+
+header {
+    color: #0f0107;
+    text-decoration: double;
+    font-size: 50px;
+    padding: 10px;
+    padding-top: 100px;
+    text-align: center;
+    font-family:'Audiowide';
+    font-weight:bolder;
+    margin-bottom: 200px;
+    
+     
+}
+
+main {
+    background-color: rgb(225, 224, 224);
+    border-radius: 10px;
+    margin: 30px;
+}
+
+h2 {
+    font-family: 'Play';
+    color: #e21a1a;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.car-image {
+    max-width: 100%;
+    height: auto;
+}
+.owner-info{
+    margin-left: 15%;
+}
+
+
+.book-now-btn {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 12px 20px;
+    background-color: #d70e0e;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.book-now-btn:hover {
+    background-color: #9c0000;
+}
+.ownerpic{
+    height: 700px;
+    width:100%;
+    background-color: #9c0000;
+    background: url("https://i.ibb.co/9tstJfr/Whats-App-Image-2024-03-05-at-20-31-06-e142931c.jpg") center/cover no-repeat fixed;
+
+}
+.headtext{
+    font-weight: 600;
+    text-align: center;
+}
+.des{
+    font-family: '';
+}
+p{
+    font-family: 'Jura';
+}
+.div1{
+    position: relative;
+
+}
+.div11{
+    position: absolute;
+    right: 0px;
+}
+
+
+
+.card{
+    border:none;
+
+    position:relative;
+    overflow:hidden;
+    border-radius:8px;
+    cursor:pointer;
+}
+
+.card:before{
+    
+    content:"";
+    position:absolute;
+    left:0;
+    top:0;
+    width:4px;
+    height:100%;
+    background-color:#E1BEE7;
+    transform:scaleY(1);
+    transition:all 0.5s;
+    transform-origin: bottom
+}
+
+.card:after{
+    
+    content:"";
+    position:absolute;
+    left:0;
+    top:0;
+    width:4px;
+    height:100%;
+    background-color:#8E24AA;
+    transform:scaleY(0);
+    transition:all 0.5s;
+    transform-origin: bottom
+}
+
+.card:hover::after{
+    transform:scaleY(1);
+}
+
+
+.fonts{
+    font-size:11px;
+}
+
+.social-list{
+    display:flex;
+    list-style:none;
+    justify-content:center;
+    padding:0;
+}
+
+.social-list li{
+    padding:10px;
+    color:#8E24AA;
+    font-size:19px;
+}
+
+
+.buttons button:nth-child(1){
+       border:1px solid #8E24AA !important;
+       color:#8E24AA;
+       height:40px;
+}
+
+.buttons button:nth-child(1):hover{
+       border:1px solid #8E24AA !important;
+       color:#fff;
+       height:40px;
+       background-color:#8E24AA;
+}
+
+.buttons button:nth-child(2){
+       border:1px solid #8E24AA !important;
+       background-color:#8E24AA;
+       color:#fff;
+        height:40px;
+}
+
+
+
+@media only screen and (max-width: 425px) {
+    .carousel{
+        width: 250px;
+        height: 180px;
+        margin-left: 10px;
+    }
+    #carouselExampleInterval{
+        margin: 0px;
+    }
+    .carousel-item{
+        width: 250px;
+        height: 180px; 
+    }
+   
+}
+    

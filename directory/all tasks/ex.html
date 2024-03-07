@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    .scrolling-container {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+}
+
+.scrolling-content {
+  display: flex;
+  width: 200%; /* twice the width of the container, to allow scrolling */
+  animation: scroll 10s infinite linear;
+}
+
+.scrolling-content img {
+  width: 50%;
+}
+
+.prev, .next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(255, 255, 255, 0.5);
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+.prev {
+  left: 0;
+}
+
+.next {
+  right: 0;
+}
+
+/* @keyframes scroll {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-100%); }
+} */
+  </style>
+</head>
+<body>
+  <div class="scrolling-container">
+    <button class="prev">Previous</button>
+    <div class="scrolling-content">
+      <img src="https://envato-shoebox-0.imgix.net/2d8e/0423-6d73-4c3a-917f-169cd03a050e/3J3A9306.jpg?auto=compress%2Cformat&mark=https%3A%2F%2Felements-assets.envato.com%2Fstatic%2Fwatermark2.png&w=1000&fit=max&markalign=center%2Cmiddle&markalpha=18&s=eb42810f13e17e2ff19a5e0fc251fca7" alt="Image 1">
+      <img src="https://envato-shoebox-0.imgix.net/2d8e/0423-6d73-4c3a-917f-169cd03a050e/3J3A9306.jpg?auto=compress%2Cformat&mark=https%3A%2F%2Felements-assets.envato.com%2Fstatic%2Fwatermark2.png&w=1000&fit=max&markalign=center%2Cmiddle&markalpha=18&s=eb42810f13e17e2ff19a5e0fc251fca7" alt="Image 1">
+      <img src="https://envato-shoebox-0.imgix.net/2d8e/0423-6d73-4c3a-917f-169cd03a050e/3J3A9306.jpg?auto=compress%2Cformat&mark=https%3A%2F%2Felements-assets.envato.com%2Fstatic%2Fwatermark2.png&w=1000&fit=max&markalign=center%2Cmiddle&markalpha=18&s=eb42810f13e17e2ff19a5e0fc251fca7" alt="Image 1">
+      <img src="https://envato-shoebox-0.imgix.net/2d8e/0423-6d73-4c3a-917f-169cd03a050e/3J3A9306.jpg?auto=compress%2Cformat&mark=https%3A%2F%2Felements-assets.envato.com%2Fstatic%2Fwatermark2.png&w=1000&fit=max&markalign=center%2Cmiddle&markalpha=18&s=eb42810f13e17e2ff19a5e0fc251fca7" alt="Image 1">
+      
+    </div>
+    <button class="next">Next</button>
+  </div>
+</body>
+</html>

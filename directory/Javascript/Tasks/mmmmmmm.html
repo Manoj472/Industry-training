@@ -6,9 +6,31 @@
     <title>Document</title>
 </head>
 <body>
-    <input type="text" id="">
-    <script>const existingEmails = ['user1@example.com', 'user2@example.com', 'user3@example.com']
-        
-</script>        
+    <table border="">
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+    </table>
+    <script>
+        const name= ['manoj','manoj','manoj','manoj','manoj','manoj','manoj','manoj','manoj']
+        let col =['red','red','red','red','red','red','red','red','red']
+        let tabledata=document.getElementsByTagName('td');
+        for(i=0;i<=tabledata.length;i++){
+            tabledata[i].innerHTML=name[i]
+            tabledata[i].style.background=col[i]
+        }
+    </script>
 </body>
 </html>

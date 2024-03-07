@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            height: 150px;
+            width: 300px;
+            text-align: center;
+            box-shadow:  1px 1px 7px rgb(0, 0, 7);
+            border-radius: 10px;
+            margin-left: 40%;
+        }
+        #header{
+            font-size: 30px;
+        }
+
+        
+    </style>
+</head>
+<body>
+    <center><span id="header">Test Your Luck</span></center>
+    <div>
+        <center><h3>Guess the number</h3>
+        <span>select  number between 1 and 10</span>
+        <input type="number" placeholder="enter number" style="width: 100px;" id="num">
+        <input type="submit" onclick="fun()">
+        <p id="ann"></p>
+    </center>
+    </div>
+    <script>
+        let numa = document.getElementById("num").value
+       console.log(numa)
+        function fun()
+        {
+            
+            // console.log(num)
+            // if(numb=8){
+            //     document.getElementById("ann").innerHTML=`You win`  
+            // }
+            // else {
+            //     document.getElementById("ann").innerHTML=`You lose`  
+            // }
+        }
+    </script>
+</body>
+</html>

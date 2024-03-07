@@ -7,9 +7,11 @@
 </head>
 <body>
     <label for="username">colour:</label>
-    <input type="text" id="" placeholder="enter color" onkeyup="change(this.value)">
+    <input type="text" id="gg" placeholder="enter color" onkeyup="change(this.value)">
     <br>
     <script>
+        let bbb = document.getElementById('gg')
+        console.log(bbb.this)
         function change(value){
             document.body.style.backgroundColor=value
 

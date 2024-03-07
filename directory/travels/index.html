@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car Travel Booking</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+
+        main {
+            padding: 20px;
+        }
+
+        form {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        label {
+            display: block;
+            margin-bottom: 8px;
+        }
+
+        input, select {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 16px;
+            box-sizing: border-box;
+        }
+
+        button {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Car Travel Booking</h1>
+    </header>
+
+    <main>
+        <form id="carBookingForm">
+            <label for="carLogo">Car Logo:</label>
+            <input type="file" id="carLogo" name="carLogo" accept="image/*" required>
+
+            <label for="ownerInfo">Owner Information:</label>
+            <textarea id="ownerInfo" name="ownerInfo" rows="4" required></textarea>
+
+            <label for="bookingDateTime">Booking Date and Time:</label>
+            <input type="datetime-local" id="bookingDateTime" name="bookingDateTime" required>
+
+            <label for="bookingPlace">Booking Place:</label>
+            <input type="text" id="bookingPlace" name="bookingPlace" required>
+
+            <label for="bookingDurationDays">Number of Days:</label>
+            <input type="number" id="bookingDurationDays" name="bookingDurationDays" required>
+
+            <label for="bookingDurationHours">Number of Hours:</label>
+            <input type="number" id="bookingDurationHours" name="bookingDurationHours" required>
+
+            <label for="contactInfo">Contact Information:</label>
+            <input type="text" id="contactInfo" name="contactInfo" required>
+
+            <label for="aadhar">Upload Aadhar Card:</label>
+            <input type="file" id="aadhar" name="aadhar" accept="image/*" required>
+
+            <label for="pan">Upload PAN Card:</label>
+            <input type="file" id="pan" name="pan" accept="image/*" required>
+
+            <label for="drivingLicense">Upload Driving License:</label>
+            <input type="file" id="drivingLicense" name="drivingLicense" accept="image/*" required>
+
+            <label for="bikePics">Upload Bike Pictures:</label>
+            <input type="file" id="bikePics" name="bikePics" accept="image/*" required>
+
+            <button type="submit">Submit Booking</button>
+        </form>
+    </main>
+
+    <script>
+        document.getElementById('carBookingForm').addEventListener('submit', function(event) {
+            event.preventDefault();
+
+            // Add logic to handle form submission (send data to the server)
+            console.log('Form submitted! Implement server-side logic for processing.');
+        });
+    </script>
+</body>
+</html>

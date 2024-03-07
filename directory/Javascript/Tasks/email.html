@@ -6,12 +6,25 @@
     <title>Document</title>
 </head>
 <body>
-    <label for="">enter mail</label>
-    <input type="text" cl>
+    <label for="">enter email</label>
+    <input type="text" id="ip">
+    <button onclick="fun()">search</button>
     <script>
-    const existingEmails = ['user1@example.com', 'user2@example.com', 'user3@example.com']
-
-
+        function fun(){
+            const hi=document.getElementById('ip').Value
+            const bye = ["hi@gmail.com","hi2@gmail.com"];
+            const emailchecker= bye.some((bee,i,arr)=>{
+                return bye==hi
+            })
+            console.log(emailchecker)
+            if(emailchecker==true)
+            {
+                alert('exists')
+            }
+            else{
+                alert('doesnt exist')
+            }
+        }
     </script>
 </body>
 </html>

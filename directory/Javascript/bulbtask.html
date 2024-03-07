@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bulb glow</title>
+    <style>
+        img{
+            height: 200px;
+            width: 200px;
+        }
+    </style>
+</head>
+<body>
+<center>
+    <h2>Javascript</h2>
+    <img id="bulbImage" src="../Javascript/Images/light-bulb-off.png" alt="Bulb">
+    <br>
+    <button onclick="bulb()">bulb on/off</button>
+</center>
+    <script>
+        let light = false;
+
+        function bulb() {
+            const bulbImage = document.getElementById("bulbImage");
+
+            if (light) {
+                bulbImage.src = "../Javascript/Images/light-bulb-off.png";
+            } else {
+                bulbImage.src = "../Javascript/Images/light-bulb-on.png";
+            }
+
+            light =! light;
+            
+        }
+    </script>
+
+</body>
+</html>
