@@ -21,6 +21,7 @@ header {
 }
 
 main {
+    padding: 10px;
     background-color: rgb(225, 224, 224);
     border-radius: 10px;
     margin: 30px;
@@ -68,10 +69,11 @@ footer {
     background-color: #9c0000;
 }
 .ownerpic{
-    height: 700px;
+    height: 1000px;
     width:100%;
     background-color: #9c0000;
-    background: url("https://i.ibb.co/9tstJfr/Whats-App-Image-2024-03-05-at-20-31-06-e142931c.jpg") center/cover no-repeat fixed;
+    background: url("https://i.ibb.co/9tstJfr/Whats-App-Image-2024-03-05-at-20-31-06-e142931c.jpg");
+    background-size: cover;
 
 }
 .headtext{
@@ -175,9 +177,7 @@ p{
         height:40px;
 }
 
-
-
-@media only screen and (max-width: 425px) {
+@media only screen and (max-width: 427px) {
     .carousel{
         width: 250px;
         height: 180px;
@@ -190,6 +190,18 @@ p{
         width: 250px;
         height: 180px; 
     }
-   
+   .ownerpic{
+    height: 240px;
+    width: 100%;
+    background-size: contain;
+   }
+   .ownertext{
+    font-size: small;
+   }
+   .nav-item{
+    font-size: x-small;
+   }
 }
-    
+
+
+
