@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        img,div{
+            height: 500px;
+            width: 500px;
+        }
+        
+    </style>
+</head>
+<body>
+    <div style="margin-left: 35%;"><img id="im_id" src="../Images/not-inflated-air-balloon-sketch-engraving-vector-26263493.jpg" alt=""></div>
+    <script>
+        let  img = document.getElementById('im_id')
+        img.addEventListener('mouseover',sample);
+        function sample(){
+            document.getElementById("im_id").src="../Images/download.png" ;
+        }
+        setTimeout(sample,1000)
+        let img1 = document.getElementById('im_id')
+        img1.addEventListener('mouseout',back);
+        function back(){
+            document.getElementById("im_id").src="../Images/red-balloon-without-air-white-background_1308-67557.jpg" ;
+        }
+       
+    </script>
+    
+</body>
+</html>

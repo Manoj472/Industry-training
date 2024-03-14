@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cake</title>
+</head>
+<body>
+    <center><div><img id="im_id" src="cake1.jpg" alt=""></div></center>
+    <script>
+        let  img = document.getElementById('im_id')
+        img.addEventListener('mouseover',sample);
+        function sample(){
+            document.getElementById("im_id").src="cake 2.jpg" ;
+        }
+        let img1 = document.getElementById('im_id')
+        img1.addEventListener('mouseout',back);
+        function back(){
+            document.getElementById("im_id").src="cake1.jpg" ;
+        }
+    </script>
+</body>
+</html>
