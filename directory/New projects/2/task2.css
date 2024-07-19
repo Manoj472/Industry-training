@@ -1,0 +1,103 @@
+.div1{
+    width: 70%;
+    height: 500px;
+    box-shadow: 0px 0px 20px white;
+    margin-left: 15%;
+    margin-top: 7%;
+    border-radius:20px;
+    background-color: aliceblue;
+    padding: 20px;
+    position: relative;
+}
+body{
+    background-color: aquamarine;
+
+}
+a{
+    position: absolute;
+    top: 30px;
+    right: 40px;
+}
+.sub1{
+    position: absolute;
+    height: 98px;
+    width: 95%;
+    top: 120px;
+    float: left;
+
+}
+.sub2{
+    position: absolute;
+    height: 98px;
+    width: 95%;
+    top: 220px;
+
+    
+}
+.sub3{
+    position: absolute;
+    height: 98px;
+    width: 95%;
+    top: 320px;
+
+}
+.sub4{
+    position: absolute;
+    height: 98px;
+    width: 95%;
+    top: 420px;
+    
+}
+.btn{
+    float: left;
+    height:18px;
+    width:80px;
+    background-color: rgb(117, 199, 117);
+    color: rgb(0, 121, 0);
+    border-radius: 10px;
+    font-size: 12px;
+    font-weight: 800;
+    padding-left: 5px;
+    padding-top: 1px;
+    margin-top: 42px;
+    
+}
+.btn2{
+    float: left;
+    height:18px;
+    width: 65px;
+    background-color: rgba(255, 251, 0, 0.721);
+    color: rgb(121, 121, 0);
+    border-radius: 10px;
+    font-size: 12px;
+    font-weight: 800;
+    padding-left: 5px;
+    padding-top: 1px;
+    margin-top: 42px;
+    
+}
+.btn3{
+    float: left;
+    height:18px;
+    width: 75px;
+    background-color: rgba(255, 0, 0, 0.655);
+    color: rgb(134, 0, 0);
+    border-radius: 10px;
+    font-size: 12px;
+    font-weight: 800;
+    padding-left: 5px;
+    padding-top: 1px;
+    margin-top: 42px;
+    
+}
+.mat1{
+    height: 90px;
+    width: 300px;
+    float: left;
+    text-align: left;
+    padding-top: 20px;
+     margin-left: 80px;
+}
+span{
+    color: gray;
+}

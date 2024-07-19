@@ -1,0 +1,51 @@
+
+body{
+    background: linear-gradient(to bottom right, pink, blue);
+    display: flex;
+    background-repeat: no-repeat;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+input{
+    background-color: transparent;
+    width: 238px;
+    height: 35px;
+    border: 0px;
+    background-color: antiquewhite;
+    border-radius: 10px;
+}
+select{
+    background-color: transparent;
+    width: 238px;
+    height: 35px;
+    border: 0px;
+    background-color: antiquewhite;
+    border-radius: 10px;
+}
+#sub{
+    background-color: rgba(255, 255, 255, 0.329);
+    border-radius: 20px;
+    height: 270px;
+}
+.head{
+    text-align: center;
+    margin: 0px;
+}
+#comment{
+    width: 500px;
+    border: 0px;
+    background-color: antiquewhite;
+    border-radius: 10px;
+}
+button{
+    background-color: rgb(255, 255, 255);
+    width: 500px;
+    height: 35px;
+    border: 0px;
+    background-color: antiquewhite;
+    border-radius: 10px;
+}
+button:hover{
+    background-color: linea;
+}

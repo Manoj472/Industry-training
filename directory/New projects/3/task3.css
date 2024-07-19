@@ -1,0 +1,58 @@
+.main{
+    width: 780px;
+    height: 750px;
+  
+    margin: 0 auto;
+    margin-top: 50px;
+    position: relative;
+}
+.sub1{
+    position: absolute;
+    top: 100px;
+    left: 100px;
+    width: 270px;
+    height: 550px;
+
+}
+.sub2{
+    position: absolute;
+    top: 100px;
+    right: 100px;
+    width: 270px;
+    height: 550px;
+    
+
+}
+.img1{
+    width: 270px;
+    height: 250px;
+    background-image: url(Screenshot\ 2024-07-14\ 091947.png);
+    border-radius: 15px;
+}
+.img2{
+    width: 270px;
+    height:180px ;
+    background-image: url(Screenshot\ 2024-07-14\ 091931.png);
+    border-radius: 15px;
+
+
+}
+.img4{
+    width: 270px;
+    height: 250px;
+    background-image: url(Screenshot\ 2024-07-14\ 091922.png);
+    border-radius: 15px;
+}
+.img3{
+    width: 270px;
+    height:180px ;
+    background-image: url(Screenshot\ 2024-07-14\ 091912.png);
+    border-radius: 15px;
+}
+.a{
+    position: absolute;
+    bottom: 50px;
+    left: 325px;
+    color: blue;
+}
+

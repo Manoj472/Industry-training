@@ -1,0 +1,52 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+body {
+	min-height: 100vh;
+	display: flex;
+	justify-content: center;
+	gap: 20px;
+	place-items: center;
+	background: #1d1e22;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.percentage {
+	--colorf3: #f3ffff;
+	--color13: #132023;
+	width: 72px;
+	aspect-ratio: 1;
+	background: conic-gradient(
+			transparent 0,
+			transparent var(--p),
+			#c9d6d7 0
+		),
+		conic-gradient(
+			var(--colorf3),
+			#ffe500,
+			#ff0818,
+			#ffe500,
+			var(--colorf3)
+		),
+		conic-gradient(#c9d6d7, transparent 10%);
+	border-radius: 50%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	.number {
+		width: 80%;
+		aspect-ratio: 1;
+		display: inherit;
+		align-items: inherit;
+		justify-content: inherit;
+		background: white;
+		border-radius: inherit;
+		font-size: 16px;
+		font-style: normal;
+		font-weight: 800;
+		line-height: 24px;
+		color: var(--color13);
+	}
+}
