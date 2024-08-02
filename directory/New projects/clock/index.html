@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background: linear-gradient(to bottom right,rgb(0, 0, 0),rgb(0, 0, 0));
+            background-repeat: no-repeat;
+            min-height: 98vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+        }
+        .clock{
+            border: 0px solid rgba(0, 0, 0, 0);
+            background: linear-gradient(to right,yellow ,red);
+            border-radius: 50%;
+            height: 500px;
+            width: 500px;
+           
+        }
+        .clock__inner{
+            width: 100%;
+            height: 100%;
+            position: relative;
+            transform: translateY(-0px);
+            box-shadow: 0px 0px 50px rgb(255, 0, 0);
+            border-radius: 50%;
+        }
+        .hand{
+            position: absolute;
+            width: 50%;
+            height: 6px;
+            top: 50%;
+            border-radius: 5px;
+            transform-origin: 100%;
+            transform: rotate(90deg);
+            transition: all 0.05s;
+            transition-timing-function: ease-in-out;
+            background: linear-gradient(to right ,rgb(255, 0, 0),rgba(255, 0, 255, 0));
+        }
+        
+
+        
+    </style>
+</head>
+<body>
+    <div class="clock">
+        <div class="clock__inner">
+            <div class="hand hourhand"></div>
+            <div class="hand minhand"></div>
+            <div class="hand sechand"></div>
+        </div>
+    </div>
+    <script>
+        const secondshand = document.querySelector('.sechand');
+        const minshand = document.querySelector('.minhand');
+        const hourshand = document.querySelector('.hourhand');
+
+        function setdate(){
+            const now = new Date();
+
+            const secs = now.getSeconds();
+            const secondsDegrees=((secs/60)*360 + 90);
+            secondshand.style.transform = `rotate(${secondsDegrees}deg)`;
+
+             const mins = now.getMinutes();
+            const minutesDegrees = ((mins / 60) * 360) + ((secs / 60) * 6) + 90;
+            minshand.style.transform = `rotate(${minutesDegrees}deg)`;
+
+            const hour = now.getHours();
+            const hourDegrees = ((hour / 12) * 360) + ((mins / 60) * 30) + 90;
+            hourshand.style.transform = `rotate(${hourDegrees}deg)`;
+        } 
+        setInterval(setdate,1000);
+        setdate()
+
+    </script>
+</body>
+</html>

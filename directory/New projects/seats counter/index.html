@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body>
+    <div class="main">
+        <div class="mn1">
+            <i class="fa-solid fa-user-group"></i>
+            <p>purchase seats</p>
+            <span>Select how many seats you need.</span>
+        </div>
+        <hr>
+        <div class="mn2">
+            <button onclick="sub()">-</button>
+            <span id="seats">0</span>
+            <button onclick="add()">+</button>
+            
+        </div>
+        <hr>
+        <div class="mn3">
+            <p>Price per seat
+                <br><br>
+                Total
+            </p>
+            <span >$10 </span>
+                <br><br>
+                <span id="ttl"></span>
+            
+        </div>
+        <hr>
+        <div class="mn4">
+            <button id="reset" onclick="rst()">Cancel</button>
+            <button>Confirm</button>
+        </div>
+    </div>
+    <script>
+        function sub(){
+            var seats = document.getElementById("seats").textContent;
+            var seatsInt = parseInt(seats);
+            if(seatsInt >= 0){
+                seatsInt--;
+                document.getElementById("seats").textContent = seatsInt;
+                var a= document.getElementById("seats").textContent
+                document.getElementById("ttl").textContent ='$'+ a * 10;
+            }
+            
+        }
+        function add(){
+            var seats = document.getElementById("seats").textContent;
+            var seatsInt = parseInt(seats);
+            if(seatsInt >= 0){
+                seatsInt++;
+                document.getElementById("seats").textContent = seatsInt;
+                var a= document.getElementById("seats").textContent
+                document.getElementById("ttl").textContent ='$'+a * 10;
+            }
+            
+        }
+       function rst(){
+        document.getElementById("seats").textContent = 0;
+       }
+
+        
+    </script>
+</body>
+</html>
