@@ -1,0 +1,70 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 98vh;
+}
+.main{
+    width: 500px;
+    height: 500px;
+    background: linear-gradient(to bottom right,rgb(22, 65, 255),rgb(243, 0, 202));
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.profile{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 1px solid white;
+    position: absolute;
+    top: 50px;
+    
+
+}
+p{
+    font-size: 20px;
+    color: white;
+    margin: 0px;
+}
+.p{
+    font-weight: 900;
+    padding-top: 40px;
+}
+.b1{
+    width: 150px;
+    height: 40px;
+    border: 1px solid white;
+    border-radius: 10px;
+    background-color: transparent;
+    color: white;
+    position: absolute;
+    bottom: 40px;
+    left: 80px;
+
+}
+.b2{
+    width: 150px;
+    height: 40px;
+    border: 1px solid white;
+    border-radius: 10px;
+    background-color: transparent;
+    color: white;
+    position: absolute;
+    bottom: 40px;
+    right: 80px;
+}
+button:hover{
+    background-color: white;
+    color: black;
+}
+.icons{
+    position: absolute;
+    bottom: 120px;
+    font-size: 30px;
+}
+i:hover{
+    color: white;
+}

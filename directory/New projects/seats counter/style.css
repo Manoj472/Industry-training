@@ -1,0 +1,104 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(to right bottom ,rgb(255, 0, 157),blue);
+    background-size: cover;
+}
+.main{
+    height: 330px;
+    width: 400px;
+    border: 1px solid black;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    padding: 30px;
+    position: relative;
+    
+}
+.mn2,.mn3,.mn4{
+    height:100px;
+    display: block;
+}
+.mn1 i{
+    padding: 8px;
+    font-size:30px;
+    box-shadow: 0px 0px 2px black;
+    border-radius: 8px;
+}
+.mn1 p{
+    position: absolute;
+    top: 8%;
+    left:90px ;
+    font-weight: bold;
+    font-size: 20px;
+}
+.mn1 span{
+    position: absolute;
+    top: 15%;
+    left:90px ;
+    color: gray;
+}
+.mn2 button{
+    width: 40px;
+    height: 40px;
+    font-size: 30px;
+    border: 0px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px gray;
+    margin-left: 30px;
+}
+.mn2 span{
+    font-size:40px;
+    margin-left: 30px;
+
+}
+.mn2{
+    display: flex;
+    align-items: center;
+    padding-left: 60px;
+}
+.mn1{
+    margin-bottom: 20px;
+}
+.mn3 p{
+    font-size: 20px;
+    position: absolute;
+    left: 30px;
+    margin-top: 10px;
+    font-weight: 700;
+}
+.mn3 span{
+    position: absolute;
+    right: 40px;
+    font-size: 20px;
+    margin-top: 10px;
+    color: gray;
+    text-align: right;
+}
+.mn4 button{
+    width: 180px;
+    height: 40px;
+    border-radius: 10px;
+    border: 1px solid rgba(128, 128, 128, 0.636);
+    font-size: 20px;
+    font-weight: 600px;
+}
+.mn4{
+    padding-left: 20px;
+    padding-top: 15px;
+    
+
+}
+.mn4 button:hover{
+    background: linear-gradient(to right bottom ,rgb(255, 0, 157),blue);
+
+}
+.mn2 button:hover{
+   color: aqua;
+}

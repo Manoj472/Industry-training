@@ -1,0 +1,53 @@
+body{
+  background-color: gray;
+  align-items: center;
+}
+.div1{
+  width: 70%;
+  height: 500px;
+  box-shadow: 0px 0px 20px white;
+  margin-left: 15%;
+  margin-top: 7%;
+  border-radius:20px;
+  background-color: aliceblue;
+  padding: 20px;
+}
+.sub1{
+      background-color: aliceblue;
+      height: 85%;
+      width: 35%;
+      margin: 40px;
+      margin-top: 40px;
+      margin-bottom: 40px;
+      margin-right: 0px;
+      float: left;
+}
+.sub2{
+  background-color:( aliceblue);
+  height: 85%;
+  width: 25%;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  float: left;
+  background-image: url(Screenshot\ 2024-07-13\ 180310.png);
+  background-size: cover;
+}
+.sub3{
+  background-color:aliceblue;
+  height: 85%;
+  width: 30%;
+  margin-right: 25px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  float: right;
+}
+.h1h{
+  margin-top: 100px;
+}
+p{
+  font-family: Dancing Script;
+  font-weight: 600;
+  font-size: larger;
+}
+
+

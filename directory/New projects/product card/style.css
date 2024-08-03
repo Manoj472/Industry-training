@@ -1,0 +1,101 @@
+.main{
+    width: 300px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px black;
+    position: relative;
+    margin: 20px auto;
+    padding-bottom: 20px;
+    
+
+}
+.product{
+    width: 94%;
+    height: 200px;
+    background-image: url("https://media.istockphoto.com/id/1408445036/photo/programming-web-pages-with-html-and-css-code-on-a-desktop-computer.webp?b=1&s=170667a&w=0&k=20&c=8bzVsHnZpYnd11a97dRNSgGuuzXMP3qA5zqTGB7j97c=");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+    margin: 3%;
+    box-shadow: 0px 0px 6px black;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 98vh;
+    background-color: rgba(255, 191, 73, 0.66);
+}
+.a1{
+    font-weight: 800;
+}
+.details{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+p{
+    font-size: 14px;
+    text-align: left ;
+
+}
+.toggle-input {
+    display: none;
+}
+
+.extra-content {
+    display: none;
+}
+
+.toggle-input:checked ~ .extra-content {
+    display: block;
+}
+
+#toggle-label-show {
+    display: inline;
+}
+
+#toggle-label-hide {
+    display: none;
+}
+
+.toggle-input:checked ~ #toggle-label-show {
+    display: none;
+}
+
+.toggle-input:checked ~ #toggle-label-hide {
+    display: inline;
+}
+.buttons{
+    width: 100%;
+    height: 50px;
+    border: 1ps solid black;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.cart{
+    width: 50px;
+    height: 50px;
+    border: 0px;
+    color: green;
+    background-color: white;
+    box-shadow: 0px 0px 2px black;
+    font-size: 20px;
+    margin-right: 20px;
+    
+
+}
+.bn{
+    width: 140px;
+    height: 50px;
+    border: 0px;
+    color: green;
+    background-color: white;
+    box-shadow: 0px 0px 2px black;
+    font-size: 20px;
+    margin-left: 20px;
+}
+button:hover{
+    background-color: green;
+    color: white;
+}
