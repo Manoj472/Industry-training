@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Objects</title>
+</head>
+<body>
+  <p id="demo"></p>
+  <p id="demo1"></p>
+  <p id="demo2"></p>
+
+  <script>
+    //creating object with {}
+    const person = {}
+    person.firstname = "manoj"
+    person.lastname = "munduri"
+    person.age = 20
+    person.eyecolour = "black"
+
+    
+    document.getElementById("demo").innerHTML = person.firstname +" is "+person.age +" years old.";
+    
+    //creating using new object
+    const person1 = new Object()
+    person1.firstname = "john"
+    person1.lastname = "doe"
+    person1.age = 50
+    person1.eyecolour = "blue"
+
+    document.getElementById("demo1").innerHTML = person1.firstname +" is "+person1.age +" years old.";
+    
+    function Person2(first, last, age, eyecolor) {
+      this.firstName = first;
+      this.lastName = last;
+      this.age = age;
+      this.eyeColor = eyecolor;
+      
+   }
+    const myFather = new Person2("John", "Doe", 50, "blue");
+    const myMother = new Person2("Sally", "Rally", 48, "green");
+    //prototype allows you to add new onject constructor
+    Person2.prototype.nationality = "English";
+
+    document.getElementById("demo2").innerHTML =
+    "My father is " + myFather.age + ". My mother is " + myMother.age + " nationality is " +myFather.nationality; 
+     
+  </script>
+</body>
+</html>

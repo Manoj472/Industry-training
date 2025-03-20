@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <ul>
+        <li>push</li>
+        <li>pop</li>
+        <li>shift</li>
+        <li>unshift</li>
+        <li>concat</li>
+        <li>slice</li>
+        <li>splice</li>
+        <li>indexof</li>
+        <li>sort</li>
+    </ul>
+    <script>
+        let var1 = ['html','css','bootstrap']
+        console.log(var1);
+        var1.push( 'javascript');
+        console.log(var1);
+        var1.pop('')
+        console.log(var1);
+        var1.shift()
+        console.log(var1);
+        var1.unshift("Web Design"); 
+        console.log(var1);
+        let car=['lamborghini','bmw','benz']
+        let bikes = ['hayabusa','ducati','yamaha','suzuki'];
+        let Vehicles = car.concat(bikes)
+        console.log(Vehicles);
+        bikes.slice(1,2)
+        console.log(bikes);
+        bikes.splice(2,0,'aston martin','formula1')
+        console.log(bikes);
+        let index = bikes.indexOf('ducati')
+        console.log(index);        
+        bikes.sort();
+        console.log(bikes);
+
+    </script>
+</body>
+</html>

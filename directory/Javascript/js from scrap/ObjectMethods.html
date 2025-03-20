@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ObjectMethods</title>
+</head>
+<body>
+  <p id="demo"></p>
+  <p id="demo1"></p>
+  <p id="demo2"></p>
+  <p id="demo3"></p>
+
+
+  <script>
+    // Create Target Object
+    const person1 = {
+      firstName: "John",
+      lastName: "Doe",
+      age: 50,
+      eyeColor: "blue"
+    };
+    
+    const person2 = {firstName: "Anne",lastName: "Smith"};
+    //Object.assign(target, source)
+    Object.assign(person1, person2);
+    //Object.entries(object)
+    let text = Object.entries(person1);
+    let text1 = Object.values(person1); 
+    const keys = Object.keys(person1);
+    document.getElementById("demo").innerHTML = text;
+    document.getElementById("demo2").innerHTML = text1;
+    document.getElementById("demo3").innerHTML = keys;
+
+
+    const fruits = [
+      ["apples", 300],
+      ["pears", 900],
+      ["bananas", 500]
+];
+    const myObj = Object.fromEntries(fruits);
+    document.getElementById("demo1").innerHTML = myObj.pears;
+    </script>
+</body>
+</html>

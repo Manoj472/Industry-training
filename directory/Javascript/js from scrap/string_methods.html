@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <h1>slice()</h1>
+  <h1>substring(start,end)</h1>
+  <h1>substr(start,length)</h1>
+  <h1>replace()</h1>
+  <h1>replaceAll()</h1>
+  <h1>toUpperCase()</h1>
+  <h1>toLowerCase()</h1>
+  <h1>trim()</h1>
+  <h1>trimStart()</h1>
+  <h1>trimEnd()</h1>
+  <h1>padStart()</h1>
+  <h1>padEnd()</h1>
+  <h1>charAt()</h1>
+  <h1>charCodeAt()</h1>
+  <h1>split()</h1>
+
+  <script>
+let a = 'Geeks for Geeks    ';
+let b = a.slice(0,5);
+let c = a.slice(4,10);
+console.log(b)
+console.log(c)
+let str = "Mind,Power,Soul,Soul";
+let d = str.substring(5,10);
+let e = str.substr(5,5);
+console.log(d)
+console.log(e)
+let f = str.replace("Power","space");
+console.log(f)
+let g = str.replaceAll("Soul","Earth")
+console.log(g)
+console.log(a.toUpperCase());
+console.log(a.toLowerCase());
+console.log(a.concat(str));
+let h = a.trim();
+console.log(h)
+let str1 = "     space at starting"
+let part1 = str1.trimStart();
+console.log(part1)
+let str2 = "space at ending.     ";
+let part2 = str2.trimEnd();
+console.log(part2)
+let stone = "Soul";
+i = stone.padStart(9, "Mind ");
+console.log(i)
+j = stone.padEnd(10,"power")
+console.log(j)
+console.log(stone.charAt(0))
+console.log(stone.charCodeAt(2))
+let geeks = 'stands-for-GeeksforGeeks'
+console.log(geeks.split('-'))
+</script>
+</body>
+</html>

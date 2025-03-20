@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <p id="demo1"></p>
+  <p id="demo2"></p>
+  <p id="demo3"></p>
+
+  <script>
+    //preventExtensions
+    const person = {name:"manoj",gender:"male",eyecolor:"black"};
+    Object.preventExtensions(person) //addproperties❌ No; delet and modify properties ✅ Yes
+    let answer1 = Object.isExtensible(person)
+    document.getElementById("demo1").innerHTML =answer1;
+    //seal
+    const obj2 = { name: "Charlie" };
+    Object.seal(obj2); //addproperties and delet ❌ No; modify properties ✅ Yes
+    let answer2 =  Object.isSealed(obj2)
+    document.getElementById("demo2").innerHTML =answer2;
+    //freeze
+    const obj3 = { name: "Eve" };
+    Object.freeze(obj3);//addproperties,modify properties and delet ❌ No;
+    let answer3 = Object.isFrozen(obj3)
+    document.getElementById("demo3").innerHTML =answer3;
+  </script>
+</body>
+</html>

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <p id="demo"></p>
+  <p id="demo1"></p>
+
+  <script>
+    //get keyword
+    const person ={
+      firstname : "john",
+      lastname : "doe",
+      language : "en",
+      get lang() {
+        return this.language;
+      }
+    }
+    //set keyword
+    const person1 ={
+      firstname : "john",
+      lastname : "doe",
+      language : "en",
+      set lang(lang) {
+        this.language = lang;
+      }
+    }
+    person1.lang = "telugu"
+    document.getElementById("demo").innerHTML = person.lang
+    document.getElementById("demo1").innerHTML = person1.language
+
+  </script>
+</body>
+</html>
